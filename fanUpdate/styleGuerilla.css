@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+ }
+.header-Gue{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.3),rgba(4, 9 ,30, 0.7)),url(Images/guerillapageback.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    } 
+  
+    nav{
+        display: flex;
+        padding: 1% 5%;
+        justify-content: space-between;
+        align-items: center;
+        font-family: sans-serif;
+    }
+    .nav-links{
+        flex: 1;
+        text-align:right;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: block;
+        padding: 8px 12px;
+        position: center;
+    }
+
+    .nav-links ul li a{
+        color:aliceblue;
+        text-decoration: wavy;
+        font-size: 23px;
+        font-family: sans-serif;
+        
+        
+     }
+    .text-boxGuerilla {
+        width: 50;
+        color:rgb(255, 255, 255);
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-90%,-60%);
+        text-align:center;
+        text-decoration: wavy;
+        background-color: rgb(87, 113, 136);
+        border-color: rgb(13, 51, 83);
+        border: 5px solid;
+
+    }
+
+    .text-boxGuerilla h1{
+        font-size: 75px;
+    }
+    .text-boxGuerilla p{
+        margin: 10px 0 40px;
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+    .text-boxGuerilla:hover{
+        border:5px solid;
+        color: rgb(159, 192, 219);
+        }
+
+        

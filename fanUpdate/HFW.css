@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-HFW{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.3),rgba(4, 9 ,30, 0.7)),url(Images/HFW.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+        }  
+
+        nav{
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .nav-links{
+            flex: 1;
+            text-align:right;
+        }
+        .nav-links ul li{
+            list-style: none;
+            display: block;
+            padding: 8px 12px;
+            position: center;
+        }
+    
+        .nav-links ul li a{
+            color:aliceblue;
+            text-decoration: wavy;
+            font-size: 23px;
+            font-family: sans-serif;
+            
+            
+         }
+        
+
+    .upcoming-game{
+        width: 100;
+        color:rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align:center;
+        text-decoration: wavy;
+        background-color: rgb(87, 113, 136, 0.75);
+        border-color: rgb(13, 51, 83);
+        border: 5px solid;
+        cursor: pointer;
+
+    }
+
+    .upcoming-game h1{
+        font-size: 75px;
+    }
+    .upcoming-game p{
+        margin: 10px 0 40px;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    .upcoming-game:hover{
+        border:5px solid;
+        color: rgb(159, 192, 219);
+    }
+    
+    .sources{
+        flex: 1;
+        text-align:left;
+        position: absolute;
+            top: 85%;
+            left: 20%;
+            transform: translate(-50%,-50%);
+    }
+    
+    .sources ul li a{
+        color:aliceblue;
+        text-decoration: wavy;
+        font-size: 22px;
+        font-family: sans-serif;
+        
+     }
+ 

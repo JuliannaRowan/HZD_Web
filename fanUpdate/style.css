@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+ }
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.1),rgba(4, 9 ,30, 0.7)),url(Images/banner2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+        }   
+       
+    soc{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+        font-family: sans-serif;
+       }
+       
+    
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+        font-family: sans-serif;
+    }
+    .nav-links{
+        flex: 1;
+        text-align:right;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: block;
+        padding: 8px 12px;
+        position: relative;
+    }
+
+    .nav-links ul li a{
+        color:aliceblue;
+        text-decoration: wavy;
+        font-size: 22px;
+        
+     }
+
+     .text-box{
+         width: 100;
+         color:aliceblue;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         text-align:center;
+         text-decoration: wavy;
+     }
+    .text-box h1{
+    font-size: 72px;
+    }
+    
+    .text-box p{
+        margin: 10px 0 40px;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    
+     .hero-btn{
+        display: inline-block;
+        font-size: 27px;
+        text-decoration:none;
+        color:aliceblue;
+        border: 3px solid aliceblue;
+        padding: 12px 34px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+     }
+
+     .hero-btn:hover{
+         border:5px solid;
+         color: rgb(154, 225, 247);
+     }
+     @media(max-width: 700px){
+         .text-box h1{
+            font-size: 20px;  
+         }
+    
+     }
+
+
+    .socials{
+        flex: 1;
+        text-align:left;
+        position: absolute;
+            top: 85%;
+            left: 20%;
+            transform: translate(-50%,-50%);
+    }
+    .socials ul li{
+        list-style: none;
+        display: inline;
+        padding: 8px 12px;
+        position: relative;
+    }
+
+    .socials ul li a{
+        color:aliceblue;
+        text-decoration: wavy;
+        font-size: 22px;
+        font-family: sans-serif;
+        
+     }
+
+     .Julianna{
+        color:aliceblue;
+        text-decoration: wavy;
+        font-size: 16px;
+        font-family: ArialS;
+        text-align:right;
+        position: absolute;
+            top: 85%;
+            left: 20%;
+            transform: translate(600%,-50%);
+     }
